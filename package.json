@@ -1,0 +1,24 @@
+{
+  "name": "practicas_mensajeria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@sendgrid/mail": "^7.6.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "twilio": "^3.76.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
